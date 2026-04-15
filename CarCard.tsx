@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Heart, Zap, Gauge, ArrowRight } from 'lucide-react';
-import { Car } from '../types';
+import { Car } from './types';
 import { cn } from './utils';
 import { useDreamGarage } from './useDreamGarage';
 
