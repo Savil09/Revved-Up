@@ -2,11 +2,11 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { AnimatePresence } from 'motion/react';
 import Navbar from "./Navbar";
 import Footer from './Footer';
-import Home from './pages/Home';
-import CarDetail from './pages/CarDetail';
-import Comparison from './pages/Comparison';
-import DreamGarage from './pages/DreamGarage';
-import About from './pages/About';
+import Home from './Home';
+import CarDetail from './CarDetail';
+import Comparison from './Comparison';
+import DreamGarage from './DreamGarage';
+import About from './About';
 import { useEffect } from 'react';
 
 function ScrollToTop() {
