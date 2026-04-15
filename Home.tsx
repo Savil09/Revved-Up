@@ -1,9 +1,9 @@
 import { useState, useMemo } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Search, X } from 'lucide-react';
-import { cars } from '../data/cars';
-import CarCard from '../components/CarCard';
-import { cn } from '../lib/utils';
+import { cars } from './cars';
+import CarCard from './CarCard';
+import { cn } from './utils';
 
 const brands = Array.from(new Set(cars.map(c => c.make))).sort();
 
