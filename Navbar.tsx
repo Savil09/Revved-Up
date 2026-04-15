@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { motion } from 'motion/react';
 import { Gauge, Car, Heart, Info, GitCompare } from 'lucide-react';
-import { cn } from '../utils';
+import { cn } from "./utils";
 
 const navItems = [
   { name: 'Catalogue', path: '/', icon: Car },
