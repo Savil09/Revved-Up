@@ -3,7 +3,7 @@ import { motion } from 'motion/react';
 import { Heart, Zap, Gauge, ArrowRight } from 'lucide-react';
 import { Car } from '../types';
 import { cn } from '../utils';
-import { useDreamGarage } from '../useDreamGarage';
+import { useDreamGarage } from './useDreamGarage';
 
 interface CarCardProps {
   car: Car;
