@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import { motion, AnimatePresence } from 'motion/react';
+import { motion, AnimatePresence } from 'react';
 import { Search, X } from 'lucide-react';
 import { cars } from './cars';
 import CarCard from './CarCard';
